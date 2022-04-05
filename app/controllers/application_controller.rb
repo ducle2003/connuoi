@@ -6,4 +6,5 @@ class ApplicationController < ActionController::Base
     def welcome
         render html: "welcome to my project!"
     end
+
 end  
